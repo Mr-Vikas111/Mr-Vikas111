@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block title %}Home{% endblock title%} {% block body%}
+<section>
+    <h2>I am Vikash Minj</h2>
+    <p>Web Developer</p>
+    <a href="#" class="active"> Get Started</a>
+    <br>
+    <h3>Best jokes too make your day</h3><br>
+    <div id="joke" class="joke"> Awesome joke is loading...</div>
+    <br>
+    <button id="jokebtn" class="btn"><i class="fas fa-arrow-circle-right"></i>Next Joke</button>
+    <script src="/static/jokeAPI/script.js"></script>
+</section>
+
+{% endblock body%}
